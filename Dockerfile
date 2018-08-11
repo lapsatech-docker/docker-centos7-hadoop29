@@ -14,5 +14,3 @@ COPY hadoop.sh /etc/profile.d/
 RUN yum install -y which vim; yum clean all
 
 RUN mkdir /data
-
-CMD /opt/hadoop/bin/hadoop version
