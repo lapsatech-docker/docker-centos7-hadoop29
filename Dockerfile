@@ -9,3 +9,7 @@ RUN ln -s hadoop-2.9.1 latest
 RUN ln -s latest default
 WORKDIR /opt/
 RUN ln -s hadoop-alt/default hadoop
+
+COPY hadoop.sh /etc/profile.d/
+
+CMD hadoop version
