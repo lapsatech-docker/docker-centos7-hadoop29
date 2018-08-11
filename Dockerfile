@@ -14,4 +14,4 @@ COPY hadoop.sh /etc/profile.d/
 
 CMD hadoop version
 
-RUN MKDIR /data
+RUN mkdir /data
