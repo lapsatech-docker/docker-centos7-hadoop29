@@ -13,3 +13,5 @@ RUN ln -s hadoop-alt/default hadoop
 COPY hadoop.sh /etc/profile.d/
 
 CMD hadoop version
+
+RUN MKDIR /data
